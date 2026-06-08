@@ -1,0 +1,12 @@
+Goal:
+Automate extraction of invoice data from PDF documents and store structured output in Excel.
+
+Inputs:
+- Invoice PDFs/images
+
+Outputs:
+- Excel file with extracted fields
+- Error log file
+
+Business Value:
+Reduces manual invoice processing time and improves accuracy.
