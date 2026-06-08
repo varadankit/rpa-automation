@@ -1,0 +1,37 @@
+Project Name: Employee Onboarding Automation Bot
+
+Objective:
+Automate repetitive HR onboarding tasks such as folder creation, email generation, and onboarding checklist preparation.
+
+Problem Statement:
+HR teams manually perform onboarding tasks for each new employee, which leads to inefficiency and inconsistency.
+
+Inputs:
+- Employee details in Excel file:
+  - Name
+  - Email
+  - Department
+  - Role
+
+Expected Outputs:
+- Created folder structure for employee
+- Welcome email draft or sent email
+- Onboarding checklist document
+- Entry updated in tracking sheet
+
+Key Automation Steps:
+1. Read employee data from Excel
+2. Create employee folder structure
+3. Generate onboarding checklist
+4. Draft/send welcome email
+5. Update onboarding status in Excel
+
+Business Value:
+- Reduces HR workload
+- Ensures consistent onboarding process
+- Improves employee experience
+
+Exception Handling:
+- Missing employee data
+- Folder already exists
+- Email sending failure
