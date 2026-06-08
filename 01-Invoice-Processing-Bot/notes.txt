@@ -1,12 +1,37 @@
-Goal:
-Automate extraction of invoice data from PDF documents and store structured output in Excel.
+Project Name: Invoice Processing Automation Bot
+
+Objective:
+Automate the extraction of key data from invoice documents (PDF/images) and store structured data into Excel for financial reporting.
+
+Problem Statement:
+Finance teams manually process invoices by reading PDFs and entering data into Excel, which is time-consuming and error-prone.
 
 Inputs:
-- Invoice PDFs/images
+- Invoice files (PDF or image format)
+- Folder containing multiple invoices
 
-Outputs:
-- Excel file with extracted fields
-- Error log file
+Expected Outputs:
+- Excel sheet containing extracted fields:
+  - Invoice Number
+  - Vendor Name
+  - Invoice Date
+  - Total Amount
+- Error log file for failed extractions
+
+Key Automation Steps:
+1. Read invoice files from input folder
+2. Extract text using OCR
+3. Parse required fields
+4. Validate extracted data
+5. Write structured data to Excel
+6. Log errors if extraction fails
 
 Business Value:
-Reduces manual invoice processing time and improves accuracy.
+- Reduces manual effort in invoice processing
+- Improves accuracy of financial records
+- Speeds up accounting operations
+
+Exception Handling:
+- Missing or unreadable invoice files
+- OCR extraction failure
+- Invalid or incomplete data fields
