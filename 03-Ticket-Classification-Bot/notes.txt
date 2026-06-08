@@ -1,0 +1,36 @@
+Project Name: Support Ticket Classification Automation Bot
+
+Objective:
+Automatically classify incoming support emails/tickets into categories and store structured data for reporting.
+
+Problem Statement:
+Support teams receive large volumes of emails and manually categorize them, leading to delays in response and inefficiency.
+
+Inputs:
+- Email subject and body content
+- Support inbox or Excel dataset of tickets
+
+Expected Outputs:
+- Categorized ticket data in Excel:
+  - Ticket ID
+  - Category (Password, Hardware, Software, Access, Other)
+  - Priority (optional)
+- Log of processed tickets
+
+Key Automation Steps:
+1. Read incoming emails or ticket data
+2. Extract subject and body text
+3. Apply keyword-based classification logic
+4. Assign category to each ticket
+5. Store structured output in Excel
+6. Generate summary report
+
+Business Value:
+- Faster ticket routing
+- Improved support response time
+- Reduced manual classification workload
+
+Exception Handling:
+- Empty or unreadable emails
+- Unclassified tickets
+- Duplicate entries
